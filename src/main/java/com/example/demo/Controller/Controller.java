@@ -5,11 +5,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/home")
+@RequestMapping("/api/v1/")
 public class Controller {
 
     @GetMapping("/ping")
     public String ping() {
-        return "pong";
+        return "ping => pong from API/V1 controlller (PFE) ";
     }
 }
