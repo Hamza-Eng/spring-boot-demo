@@ -11,4 +11,9 @@ public class Adresse {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
         private String adresse;
+    private String status;
+    private String line;
+
+
+
 }
