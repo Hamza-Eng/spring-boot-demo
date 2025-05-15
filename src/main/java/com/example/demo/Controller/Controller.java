@@ -10,6 +10,6 @@ public class Controller {
 
     @GetMapping("/ping")
     public String ping() {
-        return "ping => pong from API/V1 controlller (PFE) ";
+        return "ping => pong from API/V1 Controller (PFE) ";
     }
 }
