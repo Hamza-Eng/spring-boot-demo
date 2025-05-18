@@ -14,8 +14,8 @@ public class Controller {
 //    }
 @GetMapping("/ping")
 public String ping() {
-    String podName = System.getenv("POD_NAME");
-    return "ping => pong from API/V1 Controller (PFE) | Pod: " + podName;
+    String hostname = System.getenv("HOSTNAME");
+    return "ping => pong from API/V1 Controller (PFE) | Host: " + hostname;
 }
 
 }
